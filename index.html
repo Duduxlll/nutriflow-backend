@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="NutriFlow - Transformando sua relação com a alimentação através de soluções personalizadas e sustentáveis."
+    />
+    <meta
+      name="keywords"
+      content="Nutrição, Consultoria Nutricional, Saúde, Bem-Estar, Alimentação Saudável"
+    />
+    <meta name="author" content="NutriFlow" />
+    <title>NutriFlow - Saúde e Bem-Estar</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="favicon.ico" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <h1>NutriFlow</h1>
+        <nav class="nav">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Sobre Nós</a></li>
+            <li><a href="#services">Serviços</a></li>
+            <li><a href="#contact">Contato</a></li>
+            <li><a href="#blog">Blog</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+      <div class="container">
+        <h2>Bem-vindo à NutriFlow</h2>
+        <p>
+          Transformamos sua relação com a alimentação, promovendo saúde e
+          bem-estar de forma sustentável.
+        </p>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2>Sobre Nós</h2>
+        <p>
+          A NutriFlow é uma empresa dedicada a transformar a relação das pessoas
+          com a alimentação, oferecendo soluções completas e personalizadas para
+          todos os públicos. Acreditamos que a nutrição é uma ferramenta
+          poderosa para promover saúde, bem-estar e qualidade de vida em todas
+          as fases da jornada de cada indivíduo.
+        </p>
+        <h3>Nossos Serviços</h3>
+        <p>
+          Atendemos desde crianças a idosos, atletas, gestantes e qualquer
+          pessoa que deseje melhorar seus hábitos alimentares. Oferecemos uma
+          ampla gama de serviços, incluindo:
+        </p>
+        <ul>
+          <li>
+            Consultas Individuais: Planos alimentares personalizados que
+            consideram suas necessidades, preferências e objetivos.
+          </li>
+          <li>
+            Workshops e Palestras: Educação nutricional para grupos, empresas e
+            instituições.
+          </li>
+          <li>
+            Atendimento Online e Presencial: Flexibilidade para quem precisa de
+            suporte, onde quer que esteja.
+          </li>
+          <li>
+            Parcerias Estratégicas: Trabalhamos em conjunto com academias,
+            escolas e outras organizações para potencializar resultados.
+          </li>
+        </ul>
+        <h3>Diferenciais da NutriFlow</h3>
+        <p>
+          O que nos destaca é o compromisso com a excelência, a personalização e
+          a sustentabilidade. Na NutriFlow:
+        </p>
+        <ul>
+          <li>
+            Oferecemos um atendimento humanizado e baseado em evidências
+            científicas.
+          </li>
+          <li>
+            Adaptamos cada plano alimentar às necessidades únicas de cada
+            cliente.
+          </li>
+          <li>
+            Incorporamos práticas que promovem o respeito ao meio ambiente, como
+            a valorização de alimentos sazonais e o combate ao desperdício.
+          </li>
+        </ul>
+        <h3>Nossa Missão e Visão</h3>
+        <p>
+          A missão da NutriFlow é empoderar as pessoas a fazerem escolhas
+          alimentares conscientes, promovendo saúde e bem-estar de maneira
+          acessível e sustentável. Nossa visão é nos tornarmos referência em
+          nutrição, sendo reconhecidos por nossa abordagem inovadora e
+          resultados transformadores.
+        </p>
+        <p>
+          Na NutriFlow, sua saúde está no centro de tudo o que fazemos. Entre em
+          contato conosco e dê o primeiro passo para uma vida mais saudável e
+          equilibrada!
+        </p>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+      <div class="container">
+        <h2>Serviços</h2>
+        <ul>
+          <li>
+            <h3>Consultas Individuais</h3>
+            <p>
+              Planos alimentares personalizados que atendem suas necessidades.
+            </p>
+            <p><strong>Preço: R$150 por consulta</strong></p>
+            <button onclick="window.location.href='consultas.html'">
+              Acessar Plano
+            </button>
+          </li>
+          <li>
+            <h3>Workshops e Palestras</h3>
+            <p>Educação nutricional para grupos e empresas.</p>
+            <p><strong>Preço: R$500 por evento</strong></p>
+            <button onclick="window.location.href='workshops.html'">
+              Acessar Plano
+            </button>
+          </li>
+          <li>
+            <h3>Atendimento Online e Presencial</h3>
+            <p>
+              Flexibilidade para quem precisa de suporte, onde quer que esteja.
+            </p>
+            <p><strong>Preço: R$200 por sessão</strong></p>
+            <button onclick="window.location.href='atendimento.html'">
+              Acessar Plano
+            </button>
+          </li>
+          <li>
+            <h3>Parcerias Estratégicas</h3>
+            <p>Parcerias com academias, escolas e empresas.</p>
+            <p><strong>Preço: Sob consulta</strong></p>
+            <button onclick="window.location.href='parcerias.html'">
+              Acessar Plano
+            </button>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Contato</h2>
+        <form action="/submit" method="POST">
+          <label for="name">Nome:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Mensagem:</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509374!2d144.95373531590445!3d-37.81720974202112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf57785e5e8c6a1f!2sMelbourne!5e0!3m2!1sen!2sau!4v1615854221034!5m2!1sen!2sau"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+      <div class="container">
+        <h2>Blog</h2>
+        <p>Confira nossos últimos artigos sobre nutrição e bem-estar.</p>
+        <!-- Articles will be dynamically loaded here -->
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2025 NutriFlow. Todos os direitos reservados.</p>
+        <ul class="social">
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">LinkedIn</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parcerias Estratégicas - NutriFlow</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>NutriFlow</h1>
+      <nav class="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#services">Serviços</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="partnership-details">
+      <div class="container">
+        <h2>Parcerias Estratégicas</h2>
+        <p>
+          Na NutriFlow, acreditamos que o sucesso está em somar forças.
+          Oferecemos parcerias estratégicas para academias, escolas, empresas e
+          outras organizações interessadas em promover a saúde e o bem-estar.
+        </p>
+        <ul>
+          <li>Planos de nutrição corporativa para empresas.</li>
+          <li>Programas personalizados para academias e estúdios fitness.</li>
+          <li>Palestras educacionais e workshops em instituições de ensino.</li>
+          <li>Consultoria em cardápios para restaurantes e escolas.</li>
+        </ul>
+        <p>
+          Trabalhamos juntos para criar soluções sob medida que atendam às
+          necessidades de sua organização, fortalecendo a saúde e o bem-estar de
+          todos os envolvidos.
+        </p>
+      </div>
+    </section>
+
+    <section class="partnership-form">
+      <div class="container">
+        <h3>Solicitar Parceria</h3>
+        <form action="/send-partnership" method="POST">
+          <label for="name">Nome da Organização</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Digite o nome da sua organização"
+            required
+          />
+
+          <label for="email">E-mail</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Digite seu e-mail"
+            required
+          />
+
+          <label for="phone">Telefone</label>
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="Digite seu telefone"
+            required
+          />
+
+          <label for="message">Mensagem</label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Descreva como deseja colaborar conosco"
+            rows="6"
+            required
+          ></textarea>
+
+          <button type="submit">Enviar Solicitação</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>&copy; 2025 NutriFlow. Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>
